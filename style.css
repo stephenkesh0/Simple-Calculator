@@ -37,7 +37,7 @@
 form .display{
   display: flex;
   justify-content: flex-end;
-  margin: 20px 0;
+  margin: 15px 0;
 }
 form .display input{
   text-align: right;
@@ -52,4 +52,19 @@ form input.equal{
 
 form input.operator{
 color: #33ffd8;
+}
+
+@media screen and (max-width: 768px){
+  .calculator form input{
+    width: 55px;
+  }
+
+  .calculator form input{
+    margin: 5px;
+  }
+
+  form input.equal{
+    width: 125px;
+  }
+  
 }
